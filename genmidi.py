@@ -316,6 +316,6 @@ for p in commonprogressions:
     cpg.create_major_progression(
         p,
         key,
-        inversion="closed",
-        filename=f"closed {p}.mid",
+        inversion="open",
+        filename=f"{p}.mid",
     )
